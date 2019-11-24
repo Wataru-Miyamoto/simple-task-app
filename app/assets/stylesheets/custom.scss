@@ -23,6 +23,15 @@ textarea {
   margin-bottom: 10px;
 }
 
+.label-form {
+  margin-top: 5px;
+}
+
+.btn-form {
+  margin-top: 10px;
+}
+
+
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,11 +75,10 @@ p {
   padding-top: 9px;
   font-weight: bold;
   font-style: italic;
-}
-
-#logo:hover {
-  color: silver;
-  text-decoration: none;
+  &:hover {
+    color: silver;
+    text-decoration: none;
+  }
 }
 
 li .header-list {
@@ -83,6 +91,11 @@ li .header-list {
 
 #dropdown-title {
   background-color: teal;
+}
+
+li .dropdown-header {
+  background-color: rgba(200, 200, 200, 0.5);
+  font-weight: bold;
 }
 
 /* デバッグウインドウ */
